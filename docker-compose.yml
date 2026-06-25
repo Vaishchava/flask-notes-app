@@ -1,8 +1,8 @@
 services:
 
   web:
-    image: vaishchavandocker/flask_notes_app_web:latest
-
+    #image: vaishchavandocker/flask_notes_app_web:latest
+    build: .
     container_name: flask-app
 
     ports:
